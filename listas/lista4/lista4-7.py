@@ -10,5 +10,14 @@ for i in numeros:
         mult_maior = mult
     inicio += 1
     fim += 1
-    print(mult)
+    # print(mult)
 print(mult_maior)
+
+#outra forma de multiplicar
+# import math
+
+# tamanho = len(numeros)
+# numeros = list(map(int, [*numeros]))
+# for index in range(tamanho):
+#     print(math.prod(numeros[index:index+5]))
+
