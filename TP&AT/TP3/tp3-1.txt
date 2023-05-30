@@ -1,0 +1,37 @@
+codigo de exemplo 1:
+    o codigo define idade como 18 e verifica se o valor 
+dela é maior que 18, se for maior que 18 vai imprimir:
+"Você tem idade para dirigir".
+    como o valor de idade no codigo exemplo é igual a,
+e nao maior que 18, o codigo nao vai imprimir nada
+
+codigo de exemplo 2:
+
+    o codigo define o valor de num1 como 1337 e verifica
+se num1 é igual a 10, se for o codigo vai imprimir:
+"Este texto é impresso porque a condição era verdadeira"
+se nao for igual vai imprimir:
+"Este texto é impresso porque a condição era falsa"
+
+    como num1 nao é igual a 10, o codigo vai imprimir 
+"Este texto é impresso porque a condição era falsa"
+
+codigo de exemplo 3:
+
+    o codigo define numero como 5, e imprime na tela:
+"Eu pensei em um número entre 1 e 10"
+e depois 
+define palpite como uma variavel int a ser inserida pelo
+usuario, imprimindo na tela :
+"Você consegue adivinhar qual é?"
+depois, se o valor de palpite for o mesmo que o valor
+de numero, ele imprime na tela:
+"Correto!"
+se for menor que numero, imprime:   
+"Baixo Demais!"
+se for maior que numero, imprime:
+"Alto Demais!"
+
+    nesse caso apenas se o usuario inserir o 
+valor 5 o codigo vai responder com "Correto!"
+

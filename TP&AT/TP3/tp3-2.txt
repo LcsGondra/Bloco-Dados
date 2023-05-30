@@ -1,0 +1,28 @@
+O que acontece se você der o palpite '2'?:
+    o codigo responde: "Baixo Demais!"
+
+O que acontece se você der o palpite '6'? 
+    o codigo responde: "Alto Demais!"
+
+O que acontece se você der o palpite '5'?
+    o codigo responde: "Correto!"
+
+O que acontece se você der o palpite '-5'?
+    o codigo responde: "Baixo Demais!"
+
+O que acontece se você der o palpite '0'?
+    o codigo responde: "Baixo Demais!"
+
+O que os símbolos '<' e '>' significam nas linhas 9 e 11?
+    '<' significa menor que, e '>' significa maior que
+
+O que acontece se você mudar a linha 5 para 
+if palpite = numero: ?
+    o codigo vai dar:
+SyntaxError: invalid syntax. Maybe you meant '==' 
+or ':=' instead of '='?
+
+O que você percebe sobre cada linha 
+IMEDIATAMENTE ABAIXO de cada comando IF?
+    elas estao indentadas, de forma a significar que 
+dependem do comando if para serem chamadas
