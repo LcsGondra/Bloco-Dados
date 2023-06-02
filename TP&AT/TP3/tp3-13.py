@@ -1,5 +1,8 @@
-A = int(input('valor1: '))
-B = int(input('valor2: '))
-C = int(input('valor3: '))
+A = float(input('valor1: '))
+B = float(input('valor2: '))
+C = float(input('valor3: '))
 if A >= B >= C:
-    print(f'forma um triangulo. Perimetro')
+    if (A + B > C) and (A + C > B) and (B + C >A):
+        print(f"Forma un triangulo. Perimetro: {A+B+C}")
+    else:
+        print(f"Trapezio. Area: {((A+B)/2)*C}")
