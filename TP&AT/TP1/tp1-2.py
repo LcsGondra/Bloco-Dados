@@ -6,7 +6,7 @@ def serie_termos(n):
             lista_termos.append(f'{i}/{i}')
             soma += (i/i)
         else:
-            lista_termos.append(f'{i}/{i+1}')
+            lista_termos.append(f'{i}/{(i*2)-1}')
             soma += (i/(i+1))
         
     print(lista_termos)
